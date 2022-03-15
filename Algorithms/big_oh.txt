@@ -1,0 +1,7 @@
+1) Big O is a mathematical notation for talking about sets of functions by giving
+an upper limit to how fast those functions can grow.
+
+2) Big O is an informal way that computer scientists talk about
+how much an algorithm is expected to slow down as the algorithm is given bigger and bigger inputs.
+
+So, in the second case, it's like the smallest upper limit function you could find.
