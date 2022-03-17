@@ -34,3 +34,6 @@ def sort_iteratively(arr):
                 sorted_arr.append(arr[i])
                 break
     return sorted_arr
+
+
+print(sort_iteratively([3.8, 2, 1, 5]))
