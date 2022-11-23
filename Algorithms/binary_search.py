@@ -4,6 +4,7 @@
 """
 
 
+# This implementation is wrong. I haven't tested it thoroughly.
 def search_iterative(arr, target):
     """
     Works only on sorted arrays.
@@ -60,4 +61,4 @@ def search_recursive(arr, target):
             return search_recursive(arr[: mid_index], target)
 
 
-print(search_recursive([2, 3, 4, 10, 40], 10))
+print(search_iterative([2, 4, 5, 6, 9, 12, 13, 16], 16))
